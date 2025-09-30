@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -48,7 +54,11 @@ main p{
     font-size: 2em;
 }
 
-.segundo > p{
+.primeiro {
+    margin: 0px 0px 20px 20px;
+}
+
+.segundo  p{
 
     display: inline-block;
     margin: 0px 0px 20px 20px;
@@ -64,6 +74,10 @@ main p{
 
 }
 
+.terceiro {
+    margin: 0px 0px 20px 20px;
+}
+
 .quarto > p{
     display: inline-block;
     margin: 0px 0px 20px 20px;;
@@ -71,6 +85,14 @@ main p{
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
+}
+
+.quinto {
+    margin: 0px 0px 20px 20px;
+}
+
+.sexto {
+    margin: 0px 0px 20px 20px;
 }
 
 #img02{
